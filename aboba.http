@@ -1,0 +1,7 @@
+GET http://localhost:8000/api/v1/posts/
+Authorization: Token a06b9884131f52414e55f5a86b9a735d808cea54
+Content-Type: application/json
+
+{
+    "Authorization": "Bearer a06b9884131f52414e55f5a86b9a735d808cea54"
+}
