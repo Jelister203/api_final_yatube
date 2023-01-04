@@ -9,6 +9,7 @@ class Group(models.Model):
     slug = models.SlugField(unique=True)
     description = models.TextField()
 
+
 class Post(models.Model):
     text = models.TextField()
     pub_date = models.DateTimeField('Дата публикации', auto_now_add=True)
